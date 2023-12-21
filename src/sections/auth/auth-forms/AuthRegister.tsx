@@ -69,7 +69,7 @@ const AuthRegister = () => {
           firstname: '',
           lastname: '',
           email: '',
-          company: '',
+          // company: '',
           password: '',
           submit: null
         }}
@@ -157,7 +157,7 @@ const AuthRegister = () => {
                   )}
                 </Stack>
               </Grid>
-              <Grid item xs={12}>
+              {/* <Grid item xs={12}>
                 <Stack spacing={1}>
                   <InputLabel htmlFor="company-signup">Company</InputLabel>
                   <OutlinedInput
@@ -177,7 +177,7 @@ const AuthRegister = () => {
                     </FormHelperText>
                   )}
                 </Stack>
-              </Grid>
+              </Grid> */}
               <Grid item xs={12}>
                 <Stack spacing={1}>
                   <InputLabel htmlFor="email-signup">Email Address*</InputLabel>

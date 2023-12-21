@@ -6,7 +6,7 @@ import { Grid, Stack, Typography } from '@mui/material';
 // project import
 import useAuth from 'hooks/useAuth';
 import AuthWrapper from 'sections/auth/AuthWrapper';
-import FirebaseRegister from 'sections/auth/auth-forms/AuthRegister';
+import AuthRegister from 'sections/auth/auth-forms/AuthRegister';
 
 // ================================|| REGISTER ||================================ //
 
@@ -31,7 +31,7 @@ const Register = () => {
           </Stack>
         </Grid>
         <Grid item xs={12}>
-          <FirebaseRegister />
+          <AuthRegister />
         </Grid>
       </Grid>
     </AuthWrapper>
